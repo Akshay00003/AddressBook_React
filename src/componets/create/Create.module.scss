@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        border: 2px solid black;
+        padding: 20px 20px;
+        button{
+            height: 2rem;
+            width: 25rem;
+            margin-left: 5rem;
+        }
+        .item{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 1rem;
+           input{
+            width: 25rem;
+            height: 2rem;
+           }
+        }
+    }
+
+}
